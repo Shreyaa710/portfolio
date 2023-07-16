@@ -142,8 +142,8 @@ body {
 }
 
 .second-head {
-  padding-top: 5rem;
-  font-size: 6rem;
+  padding-top: 6rem;
+  font-size: 5rem;
   letter-spacing: 0.1rem;
   line-height: 1.2;
 }
@@ -175,12 +175,158 @@ body {
 .second-my-work {
   width: 120rem;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
+}
+
+.text {
+  display: flex;
+}
+
+.line {
+  width: 16rem;
+  height: 0.2rem;
+  background-color: #fff;
+  align-self: center;
+  margin-right: 1rem;
 }
 
 .link-second {
   text-decoration: none;
   color: #fff;
+  padding: 3rem 4rem;
+  font-size: 4rem;
+  border-top: 1px solid #fff;
+}
+
+.link-second:last-child {
+  border-bottom: 1px solid #fff;
+}
+
+/* THIRD SECTION */
+.third-projects {
+  background-color: #161412;
+  width: 100vw;
+  height: 100vh;
+}
+
+.third-top {
+  width: 120rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.third-head {
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
+}
+
+.third-head-para {
+  align-self: flex-end;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  letter-spacing: 0.1rem;
+}
+
+.third-boxes {
+  width: 120rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  justify-items: center;
+  gap: 4rem;
+}
+
+.boxes {
+  background-color: #1c1c22;
+  border-radius: 2rem;
+}
+
+.third-img {
+  width: 36rem;
+  height: 16rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.para-box-third {
+  padding: 1.2rem;
+}
+
+.boxes-text {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+/* FOURTH SECTION */
+
+.fourth-sec {
+  background-color: #1c1c22;
+  width: 100vw;
+  height: 100vh;
+}
+
+.fourth-head {
+  width: 120rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.my-name {
+  font-size: 6rem;
+  line-height: 1.4;
+  letter-spacing: 0.1rem;
+}
+
+.about-me {
+  display: flex;
+  gap: 4rem;
+}
+
+.para {
+  letter-spacing: 0.1rem;
+  line-height: 1.4;
+}
+
+.numbers {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.no-size {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.fourth-bottom {
+  background: linear-gradient(to right, #b16cea, #ff9c4e);
+  width: 120rem;
+  height: 45vh;
+  margin: 0 auto;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+  border-bottom-left-radius: 8rem;
+  border-bottom-right-radius: 8rem;
+}
+
+.written {
+  font-size: 6rem;
+  text-align: center;
+  width: 60rem;
+  line-height: 1;
+  letter-spacing: 0.1rem;
 }
