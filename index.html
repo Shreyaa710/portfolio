@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+
     <title>Portfolio</title>
   </head>
   <body>
@@ -34,16 +36,24 @@
 
       <main>
         <section class="section-hero">
-          <div class="girl-image-sec">
-            <img
-              class="girl-pic"
-              src="pexels-min-an-1009904.jpg"
-              alt="girl-image" />
+          <div class="animContainer">
+            <img class="girl-pic" src="tkthao219-peach.gif" alt="pic" />
           </div>
 
+          <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+          <script>
+            var animation = bodymovin.loadAnimation({
+              container: document.querySelector(".animContainer"),
+              renderer: "svg",
+              loop: true,
+              autoplay: true,
+              path: "https://lottie.host/ddbf17e4-371a-455e-a9e9-30407dd2776b/F9TzfXcub7.json", // lottie file path
+            });
+          </script> -->
           <h2 class="hero-head">
-            <span class="gradient-text">Hello! I'm a developer</span> with a
-            passion for innovation.
+            <span class="gradient-text"
+              >Hello! I'm <span class="auto-type">Frontend Developer</span>
+            </span>
           </h2>
 
           <p class="hero-para">
@@ -193,5 +203,15 @@
         <button class="btn">GET IN TOUCH</button>
       </div>
     </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Frontend Developer", "Backend Developer", "ML Developer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
