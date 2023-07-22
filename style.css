@@ -129,7 +129,7 @@ body {
 }
 
 .btn-2 {
-  background-color: #161412;
+  background-color: #131619;
   border: 1px solid #b6f09c;
   color: #fff;
 }
@@ -166,15 +166,8 @@ body {
   gap: 2rem;
 }
 
-.btn-1-sec {
-  background: linear-gradient(to right, #b16cea, #ff9c4e);
-  color: #fff;
-}
-
 .btn-2-sec {
   background-color: #1c1c22;
-  border: 1px solid #fff;
-  color: #fff;
 }
 
 .second-my-work {
@@ -187,33 +180,54 @@ body {
 
 .text {
   display: flex;
+  margin-left: 6rem;
 }
 
 .line {
-  width: 16rem;
+  width: 8rem;
   height: 0.2rem;
   background-color: #fff;
   align-self: center;
   margin-right: 1rem;
 }
 
+.list-my-work {
+  border-top: 1px solid #fff;
+  padding: 3rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 5s;
+}
+
+.list-my-work:hover {
+  background: linear-gradient(to right, #b16cea, #ff9c4e);
+  cursor: pointer;
+}
+
+.icon-work {
+  transform: rotate(45deg);
+  width: 4rem;
+  height: 4rem;
+}
+
 .link-second {
   text-decoration: none;
   color: #fff;
-  padding: 3rem 4rem;
+  /* padding: 3rem 4rem; */
   font-size: 4rem;
-  border-top: 1px solid #fff;
+  /* border-top: 1px solid #fff; */
 }
 
-.link-second:last-child {
+.list-my-work:last-child {
   border-bottom: 1px solid #fff;
 }
 
 /* THIRD SECTION */
 .third-projects {
-  background-color: #161412;
+  background-color: #131619;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
 }
 
 .third-top {
@@ -235,6 +249,7 @@ body {
   font-size: 1.8rem;
   line-height: 1.4;
   letter-spacing: 0.1rem;
+  color: #ffffff80;
 }
 
 .third-boxes {
@@ -261,12 +276,32 @@ body {
 }
 
 .para-box-third {
-  padding: 1.2rem;
+  padding: 1.2rem 2.4rem;
 }
 
 .boxes-text {
   font-size: 1.6rem;
   margin-bottom: 1rem;
+}
+
+.btn-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-live {
+  padding: 0.6rem 1.2rem;
+  border-radius: 1.4rem;
+  border: 1px solid #b6f09c;
+  background-color: #1c1c22;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.github-link {
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 /* FOURTH SECTION */
@@ -300,6 +335,7 @@ body {
 .para {
   letter-spacing: 0.1rem;
   line-height: 1.4;
+  color: #ffffff80;
 }
 
 .numbers {
