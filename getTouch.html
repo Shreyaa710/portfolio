@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@200;300;400;500&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 62.5%;
+    }
+
+    body {
+      background-color: #131619;
+      font-family: "Geologica";
+    }
+
+    .body-contact {
+      width: 120rem;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 8rem;
+    }
+
+    .head-contact {
+      color: #fff;
+      font-size: 5rem;
+      letter-spacing: 0.1rem;
+      line-height: 1.4;
+    }
+
+    .contact-img {
+      margin-left: 20rem;
+    }
+
+    .para-contact {
+      color: #fff;
+      font-size: 1.8rem;
+      margin-top: 3rem;
+      margin-bottom: 1.4rem;
+    }
+
+    input,
+    textarea {
+      background-color: #131619;
+      border: 1px solid #fff;
+      width: 100%;
+      color: #fff;
+      padding: 1.6rem 2rem;
+      border-radius: 1rem;
+    }
+
+    .btn-contact {
+      padding: 0.8rem 1.6rem;
+      font-size: 1.8rem;
+      border-radius: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+
+  <body>
+    <div class="body-contact">
+      <div class="contact-left">
+        <h2 class="head-contact">
+          Got a Project in<br />
+          mind?
+        </h2>
+        <img class="contact-img" src="contact-me.png" alt="img" />
+      </div>
+
+      <div class="contact-right">
+        <form>
+          <p class="para-contact">Name:</p>
+          <input type="text" id="fname" name="fname" placeholder="name" />
+          <p class="para-contact">Email:</p>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="email" /><br />
+
+          <p class="para-contact">Message:</p>
+          <textarea
+            id="w3review"
+            name="w3review"
+            rows="8"
+            cols="50"
+            placeholder="Message"></textarea>
+          <br />
+          <button class="btn-contact">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

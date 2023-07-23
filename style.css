@@ -39,7 +39,10 @@ body {
 }
 
 .head-nav {
-  font-size: 2.8rem;
+  font-family: "Caveat";
+  font-size: 3.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
 }
 
 .main-nav-list {
@@ -65,7 +68,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  gap: 15rem;
 }
 
 .btn-nav {
@@ -125,7 +128,12 @@ body {
   padding: 1.6rem;
   border-radius: 4rem;
   border: none;
-  font-weight: 600;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-2 {
@@ -136,6 +144,7 @@ body {
 
 .btn-1 {
   background-color: #b6f09c;
+  color: #131619;
 }
 
 /* Hero's next section */
@@ -372,4 +381,9 @@ body {
   width: 60rem;
   line-height: 1;
   letter-spacing: 0.1rem;
+}
+
+.btn-last {
+  background-color: #fff;
+  color: #1c1c22;
 }
